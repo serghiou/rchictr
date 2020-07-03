@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trials subjects="1">
+  <Triall>
+    <main>
+      <UTRN/>
+      <trial_id>ChiCTR2000034346</trial_id>
+      <utrn/>
+      <reg_name>ChiCTR</reg_name>
+      <date_registration>2020-07-02</date_registration>
+      <primary_sponsor>Jianxing He</primary_sponsor>
+      <public_title>Survey for Surgery status of a designated Hospital for COVID-19 management in Guangzhou</public_title>
+      <acronym/>
+      <scientific_title>Survey for Surgery status of a designated Hospital for COVID-19 management in Guangzhou</scientific_title>
+      <Scientific_acronym/>
+      <date_enrolment>2020-04-10</date_enrolment>
+      <type_enrolment/>
+      <target_size>2019 Y:2418;2020 Y:821;</target_size>
+      <recruitment_status>Completed</recruitment_status>
+      <url>http://www.chictr.org.cn/showproj.aspx?proj=55654</url>
+      <study_type>Health services reaserch</study_type>
+      <study_design>Sequential</study_design>
+      <phase>Retrospective study</phase>
+      <hc_freetext>Novel Coronavirus Pneumonia (COVID-19)</hc_freetext>
+      <i_freetext>2019 Y:N/A;2020 Y:N/A;</i_freetext>
+      <results_actual_enrolment/>
+      <results_date_completed/>
+      <results_url_link/>
+      <results_summary/>
+      <results_date_posted/>
+      <results_date_first_publication/>
+      <results_baseline_char/>
+      <results_participant_flow/>
+      <results_adverse_events/>
+      <results_outcome_measures/>
+      <results_url_protocol/>
+      <results_IPD_plan/>
+      <results_IPD_description/>
+    </main>
+    <contacts>
+      <contact>
+        <type>Scientific</type>
+        <firstname>Ran Zhong</firstname>
+        <middlename/>
+        <lastname/>
+        <address>151 Yanjiang Road West, Yuexiu District, Guangzhou, Guangdong, China</address>
+        <city/>
+        <country1/>
+        <zip/>
+        <telephone>+86 15622150974</telephone>
+        <email>zhongranran@163.com</email>
+        <affiliation>Guangzhou Institute of Respiratory Health, China State Key Laboratory of Respiratory Disease &amp; National Clinical Research Center for Respiratory Disease, the First Affiliated Hospital, GMU</affiliation>
+      </contact>
+      <contact>
+        <type>Public</type>
+        <firstname>Jianxing He</firstname>
+        <middlename/>
+        <lastname/>
+        <address>151 Yanjiang Road West, Yuexiu District, Guangzhou, Guangdong, China</address>
+        <city/>
+        <country1/>
+        <zip/>
+        <telephone>+86 13802777270</telephone>
+        <email>drjianxing.he@gmail.com</email>
+        <affiliation>Guangzhou Institute of Respiratory Health, China State Key Laboratory of Respiratory Disease &amp; National Clinical Research Center for Respiratory Disease, the First Affiliated Hospital, GMU</affiliation>
+      </contact>
+    </contacts>
+    <countries>
+      <country2>China</country2>
+    </countries>
+    <criteria>
+      <inclusion_criteria>The patients Underwent surgery during the pandemic in our hospital and the same time in 2019 were inclusion.</inclusion_criteria>
+      <agemin/>
+      <agemax/>
+      <gender>Both</gender>
+      <exclusion_criteria>(1) missing detailed information
+(2) Types of surgery not available previously in our hospital</exclusion_criteria>
+    </criteria>
+    <health_condition_code>
+      <hc_code/>
+    </health_condition_code>
+    <health_condition_keyword>
+      <hc_keyword/>
+    </health_condition_keyword>
+    <intervention_code>
+      <i_code>;;</i_code>
+    </intervention_code>
+    <intervention_keyword>
+      <i_keyword/>
+    </intervention_keyword>
+    <primary_outcome>
+      <prim_outcome>decrease;</prim_outcome>
+    </primary_outcome>
+    <secondary_outcome>
+      <sec_outcome/>
+    </secondary_outcome>
+    <secondary_sponsor>
+      <sponsor_name/>
+    </secondary_sponsor>
+    <secondary_ids>
+      <secondary_id>
+        <sec_id/>
+        <issuing_authority/>
+      </secondary_id>
+    </secondary_ids>
+    <source_support>
+      <source_name>China National Science Foundation (81871893). Key Project of Guangzhou Scientific Research Project (201804020030).</source_name>
+    </source_support>
+    <ethics_reviews>
+      <ethics_review>
+        <status>Approved</status>
+        <approval_date>2020-04-01</approval_date>
+        <contact_name>Jun rong Liu</contact_name>
+        <contact_address>The First Affiliated Hospital of Guangzhou Medical University</contact_address>
+        <contact_phone/>
+        <contact_email/>
+      </ethics_review>
+    </ethics_reviews>
+  </Triall>
+</trials>

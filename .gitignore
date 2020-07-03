@@ -1,0 +1,8 @@
+.RData
+.Rhistory
+.Rprofile
+.Rproj.user
+*.Rproj
+.Ruserdata
+.DS_Store
+LICENSE
