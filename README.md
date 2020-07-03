@@ -30,7 +30,7 @@ An R package to extract data from the Chinese Clinical Trial Repository (ChiCTR)
 5. Save as CSV in a folder called "data".
 
     ```r
-    write_csv(trials, "../data/chictr-covid.csv")
+    readr::write_csv(trials, "../data/chictr-covid.csv")
     ```
 
 
