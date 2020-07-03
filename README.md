@@ -33,7 +33,7 @@ An R package to extract data from the Chinese Clinical Trial Repository (ChiCTR)
     readr::write_csv(trials, "../data/chictr-covid.csv")
     ```
 
-6. Download the XML files for each trial
+6. Download the XML files for each trial.
 
     ```r
     pbapply::pblapply(results$trial_urls, chictr_write_trial, cl = 7)
