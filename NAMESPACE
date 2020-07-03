@@ -3,4 +3,5 @@
 export(chictr_read_results)
 export(chictr_read_trial)
 export(chictr_write_trial)
+importFrom(magrittr,"%<>%")
 importFrom(magrittr,"%>%")

@@ -17,6 +17,9 @@
 #' @export
 chictr_read_results <- function(URL) {
 
+  # Convert the Chinese website into the English website
+  URL %<>% stringr::str_replace("searchproj\\.", "searchprojen\\.")
+
   # Parse HTML
   xml_doc <- xml2::read_html(URL)
 
@@ -52,7 +55,7 @@ chictr_read_results <- function(URL) {
 
   if (index == 1) {
 
-  message(sprintf("Extracting %s pages.", n_pages))
+    message(sprintf("Extracting %s pages.", n_pages))
 
   }
 

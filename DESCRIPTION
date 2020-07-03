@@ -1,11 +1,14 @@
 Package: rchictr
 Type: Package
 Title: Get Complete Study Records from chictr.org.cn
-Version: 0.1.0
-Authors@R: c(person("Stylianos", "Serghiou", role = c("aut", "cre"),
-                     email = "stelios.serghiou@gmail.com"))
+Version: 0.1.0.9000
+Authors@R: c(
+    person("Stylianos", "Serghiou", , "stelios.serghiou@gmail.com", c("aut", "cre"))
+    )
 Description: Downloads data from the Chinese Clinical Trial Registry (ChiCTR).
 License: GPL-3
+URL: https://github.com/serghiou/rchictr
+BugReports: https://github.com/serghiou/rchictr/issues
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1

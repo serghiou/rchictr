@@ -6,8 +6,16 @@
 \alias{rchictr-package}
 \title{rchictr: Import study records from chictr.org.cn}
 \description{
-It retrieves the full study records of the desired studies from
+Retrieves the full study records of the desired studies from
 chictr.org.cn and downloads a dataset of the most commonly used fields.
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/serghiou/rchictr}
+  \item Report bugs at \url{https://github.com/serghiou/rchictr/issues}
+}
+
 }
 \author{
 \strong{Maintainer}: Stylianos Serghiou \email{stelios.serghiou@gmail.com}
