@@ -19,11 +19,11 @@ An R package to extract data from the Chinese Clinical Trial Repository (ChiCTR)
     results <- chictr_read_results("http://www.chictr.org.cn/searchproj.aspx?title=COVID&officialname=&subjectid=&secondaryid=&applier=&studyleader=&ethicalcommitteesanction=&sponsor=&studyailment=&studyailmentcode=&studytype=0&studystage=0&studydesign=0&minstudyexecutetime=&maxstudyexecutetime=&recruitmentstatus=0&gender=0&agreetosign=&secsponsor=&regno=&regstatus=0&country=&province=&city=&institution=&institutionlevel=&measure=&intercode=&sourceofspends=&createyear=0&isuploadrf=&whetherpublic=&btngo=btn&verifycode=&page=1")
     ```
 
-4. Extract all data of interest for the trials obtained in the results. Do not parallelize this and consider adding sleeping time to avoid restrictions.
+4. Extract all data of interest for the trials obtained in the results. At the moment there appears to be a limit at 30 trials that I cannot overcome with sleeping time.
 
     ```r
     library(pbapply)
-    trials_list <- pbapply::pblapply(results$trial_urls, chictr_read_trial)
+    trials_list <- pbapply::pblapply(results$trial_urls, chictr_read_trial, cl = 7)
     trials <- dplyr::bind_rows(trials_list)
     ```
 
@@ -33,6 +33,11 @@ An R package to extract data from the Chinese Clinical Trial Repository (ChiCTR)
     readr::write_csv(trials, "../data/chictr-covid.csv")
     ```
 
+6. Download the XML files for each trial
+
+    ```r
+    pbapply::pblapply(results$trial_urls, chictr_write_trial, cl = 7)
+    ```
 
 ## Alternatives
 
